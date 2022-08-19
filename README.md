@@ -1,5 +1,3 @@
-# Dance-project-------------------------------Openpose-------------------------------
-
 Training Openpose:
 
 - python openpose_train.py <arguments> to train openpose model
@@ -10,8 +8,6 @@ Training Openpose:
 
 -Features, part affinity fields and confidence maps can be trained separately with optimizers of their own. Adamw is supported for part affinity field and confidence maps. Similarly, only final layers can also be trained on the older model
 
-
-------------------------Dance Classification----------------------------
 
 Training Classifier models
 
@@ -25,8 +21,8 @@ When both the streams of two streamed i3d models are set not to be trained, only
 
 -----------------------Dataset-------------------------------------
 
-For lets dance
-
+For Let's Dance
+ 
 - Download and upzip the lets dance dataset on data/ directory, put the frames in frames/ directory and keypoints in keypoints/ directory. frames and keypoints are both sorted according to dance types
 
 - Train/val/test split in csv files of keypoints are put in pose_training_split/ directory. Alternatively, csv file resembling the train val test split can also be created
